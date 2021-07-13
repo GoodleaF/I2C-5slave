@@ -1,0 +1,22 @@
+# ignore All
+/*
+!.gitignore
+# exception .c .h .cydwr .cyprj
+!/slave led to num.cydsn
+/slave led to num.cydsn/*
+!/slave led to num.cydsn/*.c
+!/slave led to num.cydsn/*.h
+!/slave led to num.cydsn/*.cydwr
+!/slave led to num.cydsn/*.cyprj
+
+# exception .cysch
+!/slave led to num.cydsn/TopDesign
+/slave led to num.cydsn/TopDesign/*
+!/slave led to num.cydsn/TopDesign/*.cysch
+
+#exception .hex
+!/slave led to num.cydsn/CortexM0p
+/slave led to num.cydsn/CortexM0p/*
+!/slave led to num.cydsn/CortexM0p/ARM_GCC_541
+/slave led to num.cydsn/CortexM0p/ARM_GCC_541/Debug/*
+!/slave led to num.cydsn/CortexM0p/ARM_GCC_541/Debug/*.hex
